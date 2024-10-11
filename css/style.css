@@ -1,0 +1,24 @@
+.text-justify{
+  text-align: justify;
+}
+
+.dropdown {
+    position: relative; /* Set the parent to relative */
+}
+
+.dropdown-menu {
+  text-align: center; /* Center text inside the dropdown */
+}
+
+.dropdown-menu .list-group-item {
+  margin: 0 auto; /* Center the list items */
+  width: 100%;     /* Set a width for the items */
+}
+
+@media (min-width: 576px) { 
+
+  .dropdown-menu .list-group-item {
+    margin: 0 auto; /* Center the list items */
+    width: 80%;     /* Set a width for the items */
+  }
+ }
